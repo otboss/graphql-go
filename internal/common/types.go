@@ -1,8 +1,8 @@
 package common
 
 import (
-	"github.com/graph-gophers/graphql-go/ast"
-	"github.com/graph-gophers/graphql-go/errors"
+	"github.com/otboss/graphql-go/ast"
+	"github.com/otboss/graphql-go/errors"
 )
 
 func ParseType(l *Lexer) ast.Type {

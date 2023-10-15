@@ -4,7 +4,7 @@ import (
 	"encoding/json"
 	"fmt"
 
-	"github.com/graph-gophers/graphql-go"
+	"github.com/otboss/graphql-go"
 )
 
 type key interface {

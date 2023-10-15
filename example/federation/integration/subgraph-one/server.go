@@ -4,8 +4,8 @@ import (
 	"log"
 	"net/http"
 
-	"github.com/graph-gophers/graphql-go"
-	"github.com/graph-gophers/graphql-go/relay"
+	"github.com/otboss/graphql-go"
+	"github.com/otboss/graphql-go/relay"
 )
 
 var sdl = `

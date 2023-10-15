@@ -5,11 +5,11 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/graph-gophers/graphql-go/errors"
-	"github.com/graph-gophers/graphql-go/introspection"
 	opentracing "github.com/opentracing/opentracing-go"
 	"github.com/opentracing/opentracing-go/ext"
 	"github.com/opentracing/opentracing-go/log"
+	"github.com/otboss/graphql-go/errors"
+	"github.com/otboss/graphql-go/introspection"
 )
 
 // Tracer implements the graphql-go Tracer interface and creates OpenTracing spans.

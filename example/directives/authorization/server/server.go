@@ -5,10 +5,10 @@ import (
 	"log"
 	"net/http"
 
-	"github.com/graph-gophers/graphql-go"
-	"github.com/graph-gophers/graphql-go/example/directives/authorization"
-	"github.com/graph-gophers/graphql-go/example/directives/authorization/user"
-	"github.com/graph-gophers/graphql-go/relay"
+	"github.com/otboss/graphql-go"
+	"github.com/otboss/graphql-go/example/directives/authorization"
+	"github.com/otboss/graphql-go/example/directives/authorization/user"
+	"github.com/otboss/graphql-go/relay"
 )
 
 func main() {

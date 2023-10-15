@@ -6,10 +6,10 @@ import (
 	"reflect"
 	"strings"
 
-	"github.com/graph-gophers/graphql-go/ast"
-	"github.com/graph-gophers/graphql-go/decode"
-	"github.com/graph-gophers/graphql-go/directives"
-	"github.com/graph-gophers/graphql-go/errors"
+	"github.com/otboss/graphql-go/ast"
+	"github.com/otboss/graphql-go/decode"
+	"github.com/otboss/graphql-go/directives"
+	"github.com/otboss/graphql-go/errors"
 )
 
 type packer interface {

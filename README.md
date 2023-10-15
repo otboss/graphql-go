@@ -31,8 +31,8 @@ import (
 	"log"
 	"net/http"
 
-	graphql "github.com/graph-gophers/graphql-go"
-	"github.com/graph-gophers/graphql-go/relay"
+	graphql "github.com/otboss/graphql-go"
+	"github.com/otboss/graphql-go/relay"
 )
 
 type query struct{}
@@ -219,10 +219,10 @@ By default the library uses `noop.Tracer`. If you want to change that you can us
 package main
 
 import (
-	"github.com/graph-gophers/graphql-go"
-	"github.com/graph-gophers/graphql-go/example/starwars"
-	otelgraphql "github.com/graph-gophers/graphql-go/trace/otel"
-	"github.com/graph-gophers/graphql-go/trace/tracer"
+	"github.com/otboss/graphql-go"
+	"github.com/otboss/graphql-go/example/starwars"
+	otelgraphql "github.com/otboss/graphql-go/trace/otel"
+	"github.com/otboss/graphql-go/trace/tracer"
 )
 // ...
 _, err := graphql.ParseSchema(starwars.Schema, nil, graphql.Tracer(otelgraphql.DefaultTracer()))
@@ -240,10 +240,10 @@ _, err = graphql.ParseSchema(starwars.Schema, nil, graphql.Tracer(&otelgraphql.T
 package main
 
 import (
-	"github.com/graph-gophers/graphql-go"
-	"github.com/graph-gophers/graphql-go/example/starwars"
-	"github.com/graph-gophers/graphql-go/trace/opentracing"
-	"github.com/graph-gophers/graphql-go/trace/tracer"
+	"github.com/otboss/graphql-go"
+	"github.com/otboss/graphql-go/example/starwars"
+	"github.com/otboss/graphql-go/trace/opentracing"
+	"github.com/otboss/graphql-go/trace/tracer"
 )
 // ...
 _, err := graphql.ParseSchema(starwars.Schema, nil, graphql.Tracer(opentracing.Tracer{}))

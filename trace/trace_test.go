@@ -3,11 +3,11 @@ package trace_test
 import (
 	"testing"
 
-	"github.com/graph-gophers/graphql-go"
-	"github.com/graph-gophers/graphql-go/errors"
-	"github.com/graph-gophers/graphql-go/example/starwars"
-	"github.com/graph-gophers/graphql-go/trace"
-	"github.com/graph-gophers/graphql-go/trace/tracer"
+	"github.com/otboss/graphql-go"
+	"github.com/otboss/graphql-go/errors"
+	"github.com/otboss/graphql-go/example/starwars"
+	"github.com/otboss/graphql-go/trace"
+	"github.com/otboss/graphql-go/trace/tracer"
 )
 
 func TestInterfaceImplementation(t *testing.T) {

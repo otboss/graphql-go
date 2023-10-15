@@ -7,8 +7,8 @@ import (
 	"os"
 	"strings"
 
-	"github.com/graph-gophers/graphql-go"
-	"github.com/graph-gophers/graphql-go/directives"
+	"github.com/otboss/graphql-go"
+	"github.com/otboss/graphql-go/directives"
 )
 
 type roleKey string

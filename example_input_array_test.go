@@ -5,7 +5,7 @@ import (
 	"encoding/json"
 	"os"
 
-	"github.com/graph-gophers/graphql-go"
+	"github.com/otboss/graphql-go"
 )
 
 type query struct{}

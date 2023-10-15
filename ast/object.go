@@ -1,6 +1,6 @@
 package ast
 
-import "github.com/graph-gophers/graphql-go/errors"
+import "github.com/otboss/graphql-go/errors"
 
 // ObjectTypeDefinition represents a GraphQL ObjectTypeDefinition.
 //
